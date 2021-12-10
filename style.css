@@ -1,0 +1,255 @@
+/*======================================== PAGE ENTIERE ========================================*/
+body{
+    background-color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*====================================== BARRE LAT GAUCHE ======================================*/
+.latGauche{
+    max-width:350px;
+    background-color: rgb(235, 230, 230) ;
+    border-radius: 1.25rem;
+    padding-bottom: 3px;
+    float: left;
+}
+
+.menu{
+    visibility: collapse;
+    max-width: 0;
+}
+
+.photo{
+    height: 200px;
+    width: 190px;
+    background-size: cover;
+    background-image: url(photo.jpg);
+    border-radius: 9999px;
+    margin: auto;
+}
+
+.profil h2{
+    color: rgb(25, 125, 187);
+    padding-left: 3%;
+}
+
+.profil p{
+    padding-left: 5%;
+    font-size: 1.125rem;
+}
+
+.contact h2{
+    color: rgb(25, 125, 187);
+    padding-left: 3%;
+}
+
+.contact p{
+    padding-left: 5%;
+    font-size: 1.125rem;
+}
+
+.langageInfo h2{
+    color: rgb(25, 125, 187);
+    padding-left: 3%;
+}
+
+.langageInfo p{
+    padding-left: 5%;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.langues h2{
+    color: rgb(25, 125, 187);
+    padding-left: 3%;
+}
+
+.langues p{
+    padding-left: 5%;
+    font-size: 1.125rem;
+}
+
+.loisir h2{
+    color: rgb(25, 125, 187);
+    padding-left: 3%;
+}
+
+.loisir p{
+    padding-left: 5%;
+    font-size: 1.125rem;
+}
+
+
+/*====================================== INFORMATION + IMPORTANT ======================================*/
+.main{
+    margin-left: 400px;
+    max-width: 80%;
+}
+
+.menu2{
+    visibility: collapse;
+    max-width: 0;
+}
+
+.titre{
+    background-color: rgb(25, 125, 187);
+    border-radius: 9999px;
+    color: white;
+    text-align: center;
+}
+
+.intro{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    text-align: center;
+    font-weight: bold
+}
+
+.exPro h3{
+    border-bottom: 2px solid rgb(25, 125, 187);
+    font-size: 1.5rem;
+}
+
+.formation h3{
+    border-bottom: 2px solid rgb(25, 125, 187);
+    font-size: 1.5rem;
+}
+
+.formation li{
+    font-size: 1.2rem;
+}
+
+.languageUtil{
+    font-size: .85rem;
+    padding-left: 5%;
+    font-weight: bold;
+}
+
+
+
+/*====================================== CHANGEMENT DE TAILLE ======================================*/
+
+@media(max-width:1080px){
+
+    
+    /*====================================== BARRE LAT GAUCHE ======================================*/
+    .latGauche{
+        display: none;
+        max-width: 100%;
+        clear: both;
+    }
+    .menu{
+        visibility: visible;
+        margin: 5%;
+        max-width: 10%;
+    }
+    .photo{
+        height: 200px;
+        width: 190px;
+        background-size: cover;
+        background-image: url(photo.jpg);
+        border-radius: 9999px;
+        margin-right: auto;
+        margin-left: auto;
+    }    
+
+    .profil h2{
+        color: rgb(25, 125, 187);
+        padding-left: 3%;
+        font-size: 3rem;
+    }
+    .profil p{
+        padding-left: 5%;
+        font-size: 1.125rem;
+    }
+
+    .contact h2{
+        color: rgb(25, 125, 187);
+        padding-left: 3%;
+        font-size: 3rem;
+    }
+
+    .contact p{
+        padding-left: 5%;
+        font-size: 1.125rem;
+    }
+
+    .langageInfo h2{
+        color: rgb(25, 125, 187);
+        padding-left: 3%;
+        font-size: 3rem;
+    }
+
+    .langageInfo p{
+        padding-left: 5%;
+        font-size: 1.125rem;
+        font-weight: bold;
+    }
+
+    .langues h2{
+        color: rgb(25, 125, 187);
+        padding-left: 3%;
+        font-size: 3rem;
+    }
+    .langues p{
+        padding-left: 5%;
+        font-size: 1.125rem;
+    }
+
+    .loisir h2{
+        color: rgb(25, 125, 187);
+        padding-left: 3%;
+        font-size: 3rem;
+    }
+    .loisir p{
+        padding-left: 5%;
+        font-size: 1.125rem;
+    }
+
+    /*====================================== INFORMATION + IMPORTANT ======================================*/
+    .main{
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .menu2{
+        visibility: visible;
+        margin: 5%;
+        max-width: 10%;
+        
+    }
+    .titre{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(25, 125, 187);
+        border-radius: 9px;
+        color: white;
+        text-align: center;
+        font-size: .8rem;
+    } 
+    .intro{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        text-align: center;
+        font-weight: bold;
+        font-size: .7rem;
+    }
+    .exPro h3{
+        border-bottom: 2px solid rgb(25, 125, 187);
+        font-size: .9rem;
+    }
+    .exPro p{
+        font-size: .65rem;
+        margin-left: 4%;
+    }
+    .formation h3{
+        border-bottom: 2px solid rgb(25, 125, 187);
+        font-size: .9rem;
+    }
+    .formation li{
+        font-size: .65rem;
+        margin-left: 4%;
+    }
+}
